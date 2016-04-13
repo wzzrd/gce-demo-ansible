@@ -159,8 +159,11 @@ ansible-playbook ... clean-up.yml
 
 This specific project is a fork of
 https://github.com/GoogleCloudPlatform/compute-video-demo-ansible. I'm probably
-not going to actively maintain or update this. If you want to contribute,
-please look upstream.
+not going to actively maintain or update this to make this run with anything
+but RHEL. Please look upstream for that.
+
+If you have patches to make this specific fork work (better), then I'm all ears
+:)
 
 ## License
 All files in this repository are under the
