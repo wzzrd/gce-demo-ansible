@@ -1,0 +1,4 @@
+---
+# Variables defined for load-balancer
+region: europe-west1
+members: europe-west1-c/myinstance1,europe-west1-c/myinstance3,europe-west1-b/myinstance2,europe-west1-b/myinstance4

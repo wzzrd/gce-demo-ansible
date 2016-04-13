@@ -1,0 +1,5 @@
+---
+# Google Compute Engine required authentication global variables
+pid: <<numeric project ID goes here>>
+email: <<service acct @developer.gserviceaccount.com mail address goes here>>
+pem: <<full path to .pem certificate goes here>>

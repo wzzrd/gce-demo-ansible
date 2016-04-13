@@ -1,0 +1,8 @@
+---
+# compute-video-demo-ansible
+- name: Deploy httpd and custom html page
+  hosts: gce_instances_ips
+  sudo: yes
+  remote_user: <<setup a remote user with a global ssh key; name goes here>>
+  roles:
+    - simple-web

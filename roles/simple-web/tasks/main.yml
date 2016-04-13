@@ -1,0 +1,9 @@
+---
+- name: Install httpd on instances
+  yum: pkg=httpd state=present
+
+- name: Create custom index.html
+  template: src=index.html.j2 dest=/var/www/html/index.html
+
+- name: Set file stats on index.html
+  file: path=/var/www/html/index.html owner=root group=root mode=0644
